@@ -26,20 +26,14 @@
 1. Click the `Use this template` button or clone locally:
 
    ```sh
-   npx degit alex-kim-dev/vite-react-template vite-project
+   git clone https://github.com/choiruladamm/dojo-blog.git
    ```
 
-   Both methods will clean the git history.
-
-   _[degit](https://github.com/Rich-Harris/degit)_
-
-2. Update & install the dependencies:
+2. Install the dependencies / node modules:
 
    ```sh
-   npx ncu -u && npm i
+   npm install
    ```
-
-   _[npm-check-updates](https://github.com/raineorshine/npm-check-updates)_
 
 3. Change the name, description, author, license, links in `package.json`.
 4. Check out the available scripts in `package.json` or execute `npm run`.
