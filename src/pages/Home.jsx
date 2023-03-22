@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home">
       <h2>Homepage</h2>
       <p>
-        {name} is {age} years old
+        {name} is {age} years old now
       </p>
       <button
         onClick={() => {
