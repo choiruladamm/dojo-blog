@@ -12,8 +12,8 @@ const Home = () => {
       </p>
       <button
         onClick={() => {
-          setName("Adam");
-          setAge(30)
+          setName("John");
+          setAge(40)
         }}
       >
         Click me
