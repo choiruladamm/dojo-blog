@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import BlogList from "../components/BlogList";
 
 const Home = () => {
@@ -12,6 +12,11 @@ const Home = () => {
     const newBlogs = blogs.filter((blog) => blog.id !== id);
     setBlogs(newBlogs);
   };
+
+  useEffect(() => {
+    alert("useEffect running");
+    alert(`${blogs.map((blog) => blog.author)}`);
+  });
 
   return (
     <div className="home">
