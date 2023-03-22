@@ -13,7 +13,7 @@ const Home = () => {
       <button
         onClick={() => {
           setName("John");
-          setAge(40)
+          setAge(40);
         }}
       >
         Click me
