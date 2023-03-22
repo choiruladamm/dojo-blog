@@ -12,6 +12,23 @@
   color: #333;
 }
 
+/* global styles */
+button {
+  margin: 10px 0;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--main-color-hover);
+}
+
+/* navbar */
 .navbar {
   padding: 20px;
   display: flex;
@@ -59,19 +76,4 @@
   font-size: 20px;
   color: var(--main-color);
   margin-bottom: 0px;
-}
-
-.blog-preview button {
-  margin: 10px 0;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 8px;
-  background-color: var(--main-color);
-  color: white;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.blog-preview button:hover {
-  background-color: var(--main-color-hover);
 }
