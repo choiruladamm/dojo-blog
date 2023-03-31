@@ -78,3 +78,23 @@ button:hover {
   color: var(--main-color);
   margin-bottom: 0px;
 }
+
+/* blog detail pages */
+.blog-details h2 {
+  font-size: 20px;
+  color: var(--main-color);
+  margin-bottom: 5px;
+}
+
+.blog-details p {
+  margin-bottom: 20px;
+}
+
+.blog-details div {
+  background: var(--main-color);
+  color: #ffff;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
